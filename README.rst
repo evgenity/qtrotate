@@ -9,7 +9,7 @@ Patches and new tools welcome.
 
 Installation
 ------------
-pip install qtrotate
+    $ pip install qtrotate
 
 Simple Usage
 ------------
@@ -24,7 +24,7 @@ The script is usable as both a Python library and a standalone script:
 
 License
 -------
-Copyright (c) 2016 - Evgeni Bikov <evgenity.dev@gmail.com>
+Copyright (c) 2016 - Evgeni Bikov <evgenity.dev@gmail.com> (Maintaining PyPi package)
 
 Copyright (c) 2008 - 2009 Daniel G. Taylor <dan@programmer-art.org>
 
