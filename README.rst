@@ -9,17 +9,17 @@ Installation
 
 Quickstart
 ------------
-    import qtrotate
-    rotation = qtrotate.get_set_rotation(file_path)
+.. code-block:: python
 
-From console
+   import qtrotate
+   rotation = qtrotate.get_set_rotation(file_path)
+
+From terminal
 ------------
-    $ ./qtrotate.py myfile.mp4  # Read rotation from mp4
-    
-    90
+.. code-block:: bash
 
-    $ ./qtrotate.py myfile2.mp4 -90
-    
-    $ ./qtrotate.py myfile2.mp4
-    
-    270
+   $ ./qtrotate.py myfile.mp4  # Read rotation from mp4
+   90
+   $ ./qtrotate.py myfile2.mp4 -90
+   $ ./qtrotate.py myfile2.mp4
+   270
