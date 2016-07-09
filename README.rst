@@ -5,7 +5,9 @@ Tool can **read rotation angle** and **set new rotation angle**.
 
 Installation
 ------------
-    $ pip install qtrotate
+.. code-block:: bash
+
+   $ pip install qtrotate
 
 Quickstart
 ------------
@@ -20,6 +22,6 @@ From terminal
 
    $ ./qtrotate.py myfile.mp4  # Read rotation from mp4
    90
-   $ ./qtrotate.py myfile2.mp4 -90
+   $ ./qtrotate.py myfile2.mp4 -90 # Set rotation
    $ ./qtrotate.py myfile2.mp4
    270
