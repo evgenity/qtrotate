@@ -1,7 +1,8 @@
 Quicktime/MP4 Rotation Tools (IPhone, Android)
 ============================
-Tool to work with **rotated** Quicktime/MP4 files (e.g. from iphones and similar).
-Tool can **read rotation angle** and **set new rotation angle**.
+.. image:: https://badge.fury.io/py/qtrotate.svg
+    :target: https://badge.fury.io/py/qtrotate
+Tool to read or change a new rotation meta of mp4 (Quicktime) files (e.g. from iphones and similar). 
 
 Installation
 ------------
