@@ -1,23 +1,25 @@
-Quicktime/MP4 Rotation Tools
+Quicktime/MP4 Rotation Tools (IPhone, Android)
 ============================
-Tools to work with rotated Quicktime/MP4 files. Currently this consists of a tool to detect and return the rotation angle if one can be found. Once known, you can use the info to rotate the video using MEncoder's rotate filter, AviSynth, etc. You can also write a new rotation angle into the files. 
-
-NOTE that translation info will be LOST if a new rotation angle is written.
-
-
-Patches and new tools welcome.
+Tool to work with **rotated** Quicktime/MP4 files (e.g. from iphones and similar).
+Tool can **read rotation angle** and **set new rotation angle**.
 
 Installation
 ------------
     $ pip install qtrotate
 
-Simple Usage
+Quickstart
 ------------
-The script is usable as both a Python library and a standalone script:
+    import qtrotate
+    rotation = qtrotate.get_set_rotation(file_path)
 
-    $ ./qtrotate.py myfile.mp4
+From console
+------------
+    $ ./qtrotate.py myfile.mp4  # Read rotation from mp4
+    
     90
 
     $ ./qtrotate.py myfile2.mp4 -90
+    
     $ ./qtrotate.py myfile2.mp4
+    
     270
