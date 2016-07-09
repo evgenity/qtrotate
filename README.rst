@@ -1,4 +1,4 @@
-Quicktime/MP4 Rotation Tools (IPhone, Android)
+Quicktime/MP4 rotation tool
 ============================
 .. image:: https://badge.fury.io/py/qtrotate.svg
     :target: https://badge.fury.io/py/qtrotate
