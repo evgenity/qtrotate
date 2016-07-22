@@ -10,7 +10,7 @@ Installation
 
    $ pip install qtrotate
 
-Quickstart
+From code
 ------------
 .. code-block:: python
 
